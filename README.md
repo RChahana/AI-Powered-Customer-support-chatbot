@@ -70,7 +70,7 @@ CustomerSupportChatbot/
 │   └── test.jsp
 ├── pom.xml
 └── Database (PostgreSQL)
----
+
 ## System Architecture
 
 1. **User Input** is captured through the JSP-based frontend.
