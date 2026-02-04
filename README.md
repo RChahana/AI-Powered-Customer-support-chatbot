@@ -46,30 +46,6 @@ The AI Customer Support Chatbot provides **24/7 automated assistance** to users 
 ![Chatbot UI](images/chatbot_ui.png)
 
 ---
-
-## 📂 Project Structure
-
-```text
-CustomerSupportChatbot/
-├── Source Packages/
-│   ├── com.chatbot.controller/
-│   │   └── ChatServlet.java
-│   ├── com.chatbot.dao/
-│   │   ├── ChatHistoryDAO.java
-│   │   └── KnowledgeBaseDAO.java
-│   ├── com.chatbot.model/
-│   │   ├── Message.java
-│   │   ├── KnowledgeBaseEntry.java
-│   │   └── PatternMatcher.java
-│   └── com.chatbot.util/
-│       └── DBConnection.java
-├── Web Pages/
-│   ├── css/style.css
-│   ├── js/chat.js
-│   ├── index.jsp
-│   └── test.jsp
-├── pom.xml
-└── Database (PostgreSQL)
 ---
 ## System Architecture
 
@@ -119,3 +95,27 @@ CustomerSupportChatbot/
 - Real-time **Google Gemini AI** integration
 - Responsive and user-friendly interface
 - Secure JDBC-based database connectivity
+## 📂 Project Structure
+
+```text
+CustomerSupportChatbot/
+├── Source Packages/
+│   ├── com.chatbot.controller/
+│   │   └── ChatServlet.java
+│   ├── com.chatbot.dao/
+│   │   ├── ChatHistoryDAO.java
+│   │   └── KnowledgeBaseDAO.java
+│   ├── com.chatbot.model/
+│   │   ├── Message.java
+│   │   ├── KnowledgeBaseEntry.java
+│   │   └── PatternMatcher.java
+│   └── com.chatbot.util/
+│       └── DBConnection.java
+├── Web Pages/
+│   ├── css/style.css
+│   ├── js/chat.js
+│   ├── index.jsp
+│   └── test.jsp
+├── pom.xml
+└── Database (PostgreSQL)
+
