@@ -3,7 +3,7 @@
 ## 📸 Screenshots
 
 ### Chatbot Interface
-![Chatbot UI](images/chatbot_ui.png)
+![Chatbot UI](chatbot_UI.png)
 
 ## 📌 Project Overview
 
