@@ -39,10 +39,13 @@ The AI Customer Support Chatbot provides **24/7 automated assistance** to users 
 - Google Gemini AI API (fallback response generation)
 
 ---
+
 ## 📸 Screenshots
 
 ### Chatbot Interface
 ![Chatbot UI](images/chatbot_ui.png)
+
+---
 
 ## 📂 Project Structure
 
@@ -67,7 +70,7 @@ CustomerSupportChatbot/
 │   └── test.jsp
 ├── pom.xml
 └── Database (PostgreSQL)
-
+---
 ## System Architecture
 
 1. **User Input** is captured through the JSP-based frontend.
@@ -78,7 +81,6 @@ CustomerSupportChatbot/
 6. The generated response is returned and displayed on the UI.
 
 ---
-
 ## Database Design
 
 ### Table: `knowledge_base`
