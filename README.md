@@ -52,34 +52,7 @@ The AI Customer Support Chatbot provides **24/7 automated assistance** to users 
 4. If no match is found, the query is forwarded to **Google Gemini AI** as a fallback.
 5. **Chat history** is stored securely in the PostgreSQL database.
 6. The generated response is returned and displayed on the UI.
----
-## 📂 Project Structure
 
-```text
-CustomerSupportChatbot/
-├── Source Packages/
-│   ├── com.chatbot.controller/
-│   │   └── ChatServlet.java
-│   ├── com.chatbot.dao/
-│   │   ├── ChatHistoryDAO.java
-│   │   └── KnowledgeBaseDAO.java
-│   ├── com.chatbot.model/
-│   │   ├── Message.java
-│   │   ├── KnowledgeBaseEntry.java
-│   │   └── PatternMatcher.java
-│   └── com.chatbot.util/
-│       └── DBConnection.java
-├── Web Pages/
-│   ├── css/style.css
-│   ├── js/chat.js
-│   ├── index.jsp
-│   └── test.jsp
-├── pom.xml
-└── Database (PostgreSQL)
-
-
-
----
 ## Database Design
 
 ### Table: `knowledge_base`
@@ -119,4 +92,29 @@ CustomerSupportChatbot/
 - Responsive and user-friendly interface
 - Secure JDBC-based database connectivity
 
+---
+## 📂 Project Structure
 
+```text
+CustomerSupportChatbot/
+├── Source Packages/
+│   ├── com.chatbot.controller/
+│   │   └── ChatServlet.java
+│   ├── com.chatbot.dao/
+│   │   ├── ChatHistoryDAO.java
+│   │   └── KnowledgeBaseDAO.java
+│   ├── com.chatbot.model/
+│   │   ├── Message.java
+│   │   ├── KnowledgeBaseEntry.java
+│   │   └── PatternMatcher.java
+│   └── com.chatbot.util/
+│       └── DBConnection.java
+├── Web Pages/
+│   ├── css/style.css
+│   ├── js/chat.js
+│   ├── index.jsp
+│   └── test.jsp
+├── pom.xml
+└── Database (PostgreSQL)
+
+---
