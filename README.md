@@ -1,7 +1,5 @@
 # AI-Powered Customer Support Chatbot (Java + JSP)
 
-## 📸 Screenshots
-
 ### Chatbot Interface
 ![Chatbot UI](chatbot_UI.png)
 
