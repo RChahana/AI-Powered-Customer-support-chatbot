@@ -76,7 +76,7 @@ The AI Customer Support Chatbot provides **24/7 automated assistance** to users 
 1. Clone the GitHub repository.
 2. Create and configure the PostgreSQL database (`chatbot_db`).
 3. Update database credentials in `DBConnection.java`.
-4. Add your Google Gemini API key in `ChatServlet.java`.
+4. Replace your Google Gemini API key in `ChatServlet.java` .
 5. Clean and build the project in NetBeans.
 6. Deploy and run the application on Apache Tomcat.
 
@@ -115,4 +115,3 @@ CustomerSupportChatbot/
 ├── pom.xml
 └── Database (PostgreSQL)
 
----
